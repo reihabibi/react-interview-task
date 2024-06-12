@@ -50,8 +50,11 @@
 2.  **How would you make this solution scale to millions of records?**
 
 	i. **Pagination**
+	
 	ii. **Lazy Loading**
+	
 	iii. **Add Debouncing or Search Button for Searching**
-		* To reduce the number of requests sent to the server
+	*  To reduce the number of requests sent to the server
+		
 	iv. **Client-Side Caching** 
-		* implement a global state manager ( redux or react query ) or save data to Local Storage / IndexedDB
+	* implement a global state manager ( redux or react query ) or save data to Local Storage / IndexedDB
