@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f4f5f6;
+}
+
+/* Overwriting Ant Design Classes  */
+.ant-btn-icon-end {
+  border-left: 2px solid rgba(73, 73, 73, 0.11);
+  padding-left: 8px;
+}
+
+/* TABLE */
+.ant-table-thead .ant-table-cell {
+  background-color: white !important;
+}
+
+.ant-table-cell {
+  padding: 2px !important;
+}
+
+.tableStrips tr:nth-child(odd) {
+  background-color: #f8f8fa;
+}
+
+
+/* Modal */
+.ant-modal-header {
+  margin: 0 -24px;
+  margin-top: -20px;
+  padding: 12px 24px !important;
+  background-color: #F8F8FA !important;
+
+}
+
+.ant-modal-close-x{
+  color: #323338 !important
+}
+
+.ant-form-item-required{
+  font-weight: bold;
+}
+
+.ant-input {
+  border: none;
+  background-color: #F5F5F7;
+}
+
+.ant-select-selector {
+  border: none !important;
+  background-color: #F5F5F7 !important;
+}
+
+
+/* Remove Box Shadow */
+.ant-btn{
+  box-shadow: none;
+}
